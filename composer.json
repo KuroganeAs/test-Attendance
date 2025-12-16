@@ -1,0 +1,16 @@
+{
+  "name": "attendance-system/railway",
+  "description": "Attendance System for Railway",
+  "type": "project",
+  "require": {
+    "php": ">=8.0",
+    "ext-pdo": "*",
+    "ext-mysqli": "*"
+  },
+  "config": {
+    "platform": {
+      "php": "8.2"
+    }
+  }
+}
+
