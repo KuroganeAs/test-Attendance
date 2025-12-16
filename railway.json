@@ -6,7 +6,7 @@
     "watchPatterns": []
   },
   "deploy": {
-    "startCommand": "cd php-login-register && php -S 0.0.0.0:${PORT} -t .",
+    "startCommand": "sh start.sh",
     "restartPolicyType": "ON_FAILURE",
     "restartPolicyMaxRetries": 10
   }
